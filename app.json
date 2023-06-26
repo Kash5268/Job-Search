@@ -5,6 +5,23 @@
       "bundler": "metro"
     },
     "name": "App",
-    "slug": "App"
+    "slug": "App",
+    "extra": {
+      "eas": {
+        "projectId": "dce58e0c-c12b-4b1c-88bc-64e92359835a"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/dce58e0c-c12b-4b1c-88bc-64e92359835a"
+    },
+    "android": {
+      "package": "com.kashimo.App"
+    },
+    "ios": {
+      "bundleIdentifier": "com.kashimo.App"
+    }
   }
 }
